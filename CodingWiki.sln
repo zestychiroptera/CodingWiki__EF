@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingWiki_DataAccess", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingWiki_Model", "CodingWiki_Model\CodingWiki_Model.csproj", "{C61A242C-A013-4B8A-818A-65FEECA1575E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingWiki_Console", "CodingWiki_Console\CodingWiki_Console.csproj", "{3EDAE2A7-5C55-4C50-ADEA-ABF133918B32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{C61A242C-A013-4B8A-818A-65FEECA1575E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C61A242C-A013-4B8A-818A-65FEECA1575E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C61A242C-A013-4B8A-818A-65FEECA1575E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EDAE2A7-5C55-4C50-ADEA-ABF133918B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EDAE2A7-5C55-4C50-ADEA-ABF133918B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EDAE2A7-5C55-4C50-ADEA-ABF133918B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EDAE2A7-5C55-4C50-ADEA-ABF133918B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
