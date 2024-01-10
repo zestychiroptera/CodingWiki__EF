@@ -1,18 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CodingWiki_Model.Models
 {
-	public class Genre
+	[Table("SubCategories")]
+	public class SubCategory
 	{
 		[Key]
-		public int GenreID { get; set; }
-		public string GenreName { get; set; }
-		public int DisplayOrder { get; set; }
-
+		public int SubCategory_Id { get; set; }
+		[Required]
+		[MaxLength(50)]
+		public string Name { get; set; }
 	}
 }

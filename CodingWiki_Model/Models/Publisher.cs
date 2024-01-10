@@ -8,16 +8,14 @@ using System.Threading.Tasks;
 
 namespace CodingWiki_Model.Models
 {
-	public class Book
+	[Table("Publishers")]
+	public class Publisher
 	{
 		[Key]
-		public int IDBook { get; set; }
-		public string Title { get; set; }
-		[MaxLength(30)]
-		[Required] 
-		public string ISBN { get; set; }
-		public decimal Price { get; set; }
-		[NotMapped]
-        public string PriceRange { get; set; }
-    }
+		public int Publisher_Id { get; set; }
+		[Required]
+		public string Name { get; set; }
+		public string Location { get; set; }
+
+	}
 }
