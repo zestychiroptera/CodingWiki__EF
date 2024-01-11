@@ -29,5 +29,6 @@ namespace CodingWiki_Model.Models
 			}
 		}
 
-	}
+        public List<BookAuthorMap> BookAuthorMap { get; set; }
+    }
 }
